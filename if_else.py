@@ -22,7 +22,7 @@ if age<18:
     print("you are not able for vote")
 else:
     print("you are able for vote") 
-
+ 
 
 #4.  number is between 1 to 100
 rang = int(input("enter your number"))
@@ -79,3 +79,49 @@ if a==b and b==c and c==a:
     print("this is triangle")
 else:
     print("this is not triangle")
+
+#10.    check where you go according your age
+age = int(input("enter your age"))
+b = int(input("enter your salary"))
+c = input("enter your sex")
+m = "male"
+f ="female"
+if age<25 and b>30000 and c==m:
+    print("you will go to thilend")
+elif age<25 and b>30000 and c==f:
+    print("you will go to bali")
+elif age>26 and age<40:
+    print("you will not go anyvery")
+else:
+    print("you will go to jk")
+
+
+#11 . check string len
+x =input("enter your city name")
+y  =input("entr your home city name")
+x1 = len(x)
+y1=len(y)
+if x1>y1:
+    print("you will get promotion")
+elif x1==y1:
+    print("its depands to us")
+else:
+    print("you will not promotion")
+
+
+#12.     how many discount you got
+
+x = int(input("enter your first order rate"))
+y = int(input("enter your second order rate"))
+b = int(input("enter your third rate"))
+a = int(input("enter your rate"))
+su  = a+b+x+y
+print(su)
+if su<50000:
+    print("you got no discount")
+elif su<75000:
+    print("you got 10% discount")
+elif su<100000:
+    print("you got 20% discount")
+else:
+    print("you got 30% discount")
